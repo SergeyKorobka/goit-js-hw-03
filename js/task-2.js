@@ -1,3 +1,5 @@
+'use strict';
+
 function makeArray(firstArray, secondArray, maxLength) {
   return [...firstArray, ...secondArray].slice(0, maxLength);
 }
